@@ -51,7 +51,13 @@ form.addEventListener('submit', (event) => {
     })
     .then(response => response.json())
     .then(data => {
-        buscarUsuarios(data);
+        console.log(data);
+        if(data == 0){
+           window.alert('Nenhum resultado encontrado.')
+        }
+        else{
+            buscarUsuarios(data);
+        }
     })
     .catch(error => console.error(error));
 });
