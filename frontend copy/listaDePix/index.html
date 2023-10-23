@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <body>
+        <div class="content">
+            <div id="form-container">
+                <form id="formulario">
+                    <div class="form-group">
+                        <div>
+                            <label for="usuarios">ID do usuário:</label>
+                            <select class="form-control" id="usuarios" name="usuarios">
+                            </select>
+                        </div>
+                        <div class="form-group radio-buttons">
+                            <input type="radio" name="opcao" value="received"> Recebidos
+                            <input type="radio" name="opcao" value="sent"> Enviados
+                        </div>
+                        <div class="form-group submit-button">
+                            <button class="btn btn-primary">Listar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <div class="table-container">
+                <table class="custom-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Valor</th>
+                            <th scope="col">Criado em</th>
+                            <th scope="col">Editado em</th>
+                            <th scope="col">Quem fez</th>
+                            <th scope="col">Quem recebeu</th>
+                        </tr>
+                    </thead>
+                    <tbody id="corpo-tabela">
+                        <!-- Aqui você pode adicionar as linhas da tabela com os dados do CD -->
+                    </tbody>
+                </table>
+            </div>
+            <a href="../home/index.html">Voltar</a>
+
+            <footer>
+                <p>by @CrieTi 2023</p> <!-- Footer com a frase -->
+            </footer>
+        </div>
+        <script src="listar.js"></script>
+        <!-- ,<script src="formulario.js"></script> -->
+    </body>
+
+</html>

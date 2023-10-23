@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column; /* Adiciona uma coluna flexível para alinhar elementos verticalmente */
+    text-align: center;
+}
+
+h1 {
+    margin: 20px 0; /* Adiciona margem acima e abaixo do h1 para espaçamento */
+}
+
+div {
+    display: flex;
+}
+
+a {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 40px; /* Adiciona margem entre as âncoras */
+}

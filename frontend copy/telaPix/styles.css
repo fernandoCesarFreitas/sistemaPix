@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    text-align: left;
+}
+
+input[type="text"],
+select {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+a {
+    background-color: rgb(255, 145, 0);
+    color: white;
+    border: none;
+    margin-top: 10px;
+    margin-right: 350px; /* Move o link para a esquerda da página */
+    padding: 8.5px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block; /* Torna o link um bloco para alinhar à esquerda */
+}
+
+
+
